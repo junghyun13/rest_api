@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:chat_dev //물리적DB없이 메모리에서 돌아감
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
